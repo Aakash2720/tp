@@ -6,7 +6,8 @@ object curriedFunction extends App {
   def curriedAddMethod(x:Int)(y:Int)=x+y
   val add7 = simpleAddFunction(_,7);
   val add8=simpleAddMethod(_,_)
-  println(add8(3))
+  println(add8(3,7))
   println(add7(6))
+
 
 }
